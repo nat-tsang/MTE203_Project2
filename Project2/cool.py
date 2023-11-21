@@ -18,7 +18,7 @@ def hex_to_base64(s: str) -> bytes:
 
 def collatz(n: int) -> int:
     if n % 2 == 0:
-        return n / 2
+        return n // 2
     else:
         return 3 * n + 1
 
