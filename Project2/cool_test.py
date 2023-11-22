@@ -1,4 +1,6 @@
 from cool import *  # noqa: F403
+from operator import itemgetter, mul
+from functools import reduce
 
 
 def test_collatz_4():

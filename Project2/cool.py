@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 
 from base64 import b16decode, b64encode
-from operator import itemgetter, mul
 from typing import List, Tuple
-from functools import reduce
 
 
 def main() -> None:
